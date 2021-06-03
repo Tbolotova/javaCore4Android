@@ -13,6 +13,7 @@ public class Main {
         Plate plate = new Plate(100);
         feedCats(plate);
         catState();
+        sc.close();
     }
 
     public static void createCats() {
