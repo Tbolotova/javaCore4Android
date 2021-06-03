@@ -1,4 +1,4 @@
-package Lesson06HW.Animals.Dogs;
+package lesson06HW.Animals.Dogs;
 
 public class SmallDog extends Dog {
     public SmallDog(String name) {

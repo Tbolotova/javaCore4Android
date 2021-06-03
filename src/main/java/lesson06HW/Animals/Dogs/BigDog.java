@@ -1,4 +1,4 @@
-package Lesson06HW.Animals.Dogs;
+package lesson06HW.Animals.Dogs;
 
 public class BigDog extends Dog {
 

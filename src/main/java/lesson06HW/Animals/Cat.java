@@ -1,4 +1,4 @@
-package Lesson06HW.Animals;
+package lesson06HW.Animals;
 
 public class Cat extends Animal {
 

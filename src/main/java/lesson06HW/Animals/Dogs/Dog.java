@@ -1,6 +1,6 @@
-package Lesson06HW.Animals.Dogs;
+package lesson06HW.Animals.Dogs;
 
-import Lesson06HW.Animals.Animal;
+import lesson06HW.Animals.Animal;
 
 public class Dog extends Animal {
 

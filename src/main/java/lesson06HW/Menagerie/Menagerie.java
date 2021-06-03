@@ -1,6 +1,6 @@
-package Lesson06HW.Menagerie;
+package lesson06HW.Menagerie;
 
-import Lesson06HW.Animals.Animal;
+import lesson06HW.Animals.Animal;
 
 import java.util.ArrayList;
 

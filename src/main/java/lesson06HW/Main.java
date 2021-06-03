@@ -1,11 +1,11 @@
-package Lesson06HW;
+package lesson06HW;
 
-import Lesson06HW.Animals.Animal;
-import Lesson06HW.Animals.Cat;
-import Lesson06HW.Animals.Dogs.BigDog;
-import Lesson06HW.Animals.Dogs.Dog;
-import Lesson06HW.Animals.Dogs.SmallDog;
-import Lesson06HW.Menagerie.Menagerie;
+import lesson06HW.Animals.Animal;
+import lesson06HW.Animals.Cat;
+import lesson06HW.Animals.Dogs.BigDog;
+import lesson06HW.Animals.Dogs.Dog;
+import lesson06HW.Animals.Dogs.SmallDog;
+import lesson06HW.Menagerie.Menagerie;
 
 public class Main {
     public static void main(String[] args) {
