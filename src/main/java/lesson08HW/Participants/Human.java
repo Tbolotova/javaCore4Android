@@ -14,13 +14,13 @@ public class Human implements Participatable {
     @Override
     public boolean run (int runLimit, int distance) {
         if (distance > runLimit) {
-            System.out.printf("Этот человек не может пробежать %d.\n", distance);
+            System.out.printf("Этот человек не может пробежать %d м.\n", distance);
             return false;
         } else if (distance < 0) {
             System.err.println("Некорректная дистанция.");
             return false;
         } else {
-            System.out.printf("Человек пробежал %d.\n", distance);
+            System.out.printf("Человек пробежал %d м.\n", distance);
             return true;
         }
     }
@@ -28,13 +28,13 @@ public class Human implements Participatable {
     @Override
     public boolean jump (double jumpLimit, double height) {
         if (height > jumpLimit) {
-            System.out.printf("Этот человек не может перепрыгнуть %.2f.\n", height);
+            System.out.printf("Этот человек не может перепрыгнуть %.2f м.\n", height);
             return false;
         } else if (height < 0) {
             System.err.println("Некорректная высота.");
             return false;
         } else {
-            System.out.printf("Человек перепрыгнул %.2f.\n", height);
+            System.out.printf("Человек перепрыгнул %.2f м.\n", height);
             return true;
         }
     }

@@ -37,7 +37,6 @@ public class Main {
             } else {
                 participants[i] = new Robot(random.nextInt(500), random.nextDouble());
             }
-            System.out.println(participants[i].toString());
         }
     }
 
@@ -47,11 +46,10 @@ public class Main {
             int classIdentifier = random.nextInt(2);
 
             if (classIdentifier == 0) {
-                obstacles[i] = new RaceTrack(random.nextInt(500) + 10);
+                obstacles[i] = new RaceTrack(random.nextInt(500));
             } else {
-                obstacles[i] = new Wall(random.nextDouble() + 0.1);
+                obstacles[i] = new Wall(random.nextDouble() + 0.01);
             }
-            System.out.println(obstacles[i].toString());
         }
     }
 
@@ -59,6 +57,7 @@ public class Main {
         for (Object participant:participants) {
             if (participant instanceof Participatable) {
                 Participatable participatable = (Participatable) participant;
+                System.out.println("Участник  " + participant.toString() + " начинает прохождение препятствий.");
                 for (Object obstacle:obstacles) {
                     if (obstacle instanceof Runnable) {
                         Runnable runnable = (Runnable) obstacle;

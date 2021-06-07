@@ -28,13 +28,13 @@ public class Robot implements Participatable {
     @Override
     public boolean jump (double jumpLimit, double height) {
         if (height > jumpLimit) {
-            System.out.printf("Этот робот не может перепрыгнуть %.2f.\n", height);
+            System.out.printf("Этот робот не может перепрыгнуть %.2f м.\n", height);
             return false;
         } else if (height < 0) {
             System.err.println("Некорректная высота.");
             return false;
         } else {
-            System.out.printf("Робот перепрыгнул %.2f.\n", height);
+            System.out.printf("Робот перепрыгнул %.2f м.\n", height);
             return true;
         }
     }
