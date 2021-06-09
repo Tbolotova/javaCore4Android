@@ -70,11 +70,13 @@ public class Main {
                         boolean goOn = participatable.jump(participatable.getJumpLimit(), jumpable.getHeight());
                         if (!goOn) {
                             break;
+                            
                         }
                     }
                 }
             }
         }
     }
+
 
 }
