@@ -1,4 +1,5 @@
 .idea
 target
 TestTheAI.java
-BookExercise
+/src/main/java/BookExercise/
+/src/main/java/BookExercise/Main.java
