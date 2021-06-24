@@ -8,7 +8,7 @@ import java.util.concurrent.Semaphore;
 
 public class Tunnel extends Stage {
     private static int concurrencyLimit = MainClass.CARS_COUNT/2;
-    private static Semaphore smp = new Semaphore(concurrencyLimit);
+    private Semaphore smp = new Semaphore(concurrencyLimit);
     public Tunnel() {
         this.length = 80;
         this.description = "Тоннель " + length + " метров";
