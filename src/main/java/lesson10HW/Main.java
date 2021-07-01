@@ -1,5 +1,6 @@
 package lesson10HW;
 
+import java.awt.*;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -53,4 +54,6 @@ public class Main {
         }
         System.out.printf("Слово %s встречается %d раз(а).\n", wordToCount, fruitMap.get(wordToCount));
     }
+
+
 }
